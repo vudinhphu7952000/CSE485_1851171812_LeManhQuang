@@ -11,10 +11,10 @@
                 $account = $_POST['txtAccount'];
                 $password = addslashes($_POST['txtPass']);
 
-                //  if (!$account || !$password) {
-                //     echo "Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu";
-                //     exit;
-                // }
+                 if (!$account || !$password) {
+                    echo "Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu";
+                    exit;
+                }
               
                 // // $password = md5($password);
                 // $sql="SELECT account, password FROM users WHERE account='$account";
@@ -30,7 +30,7 @@
                 //   }   
                   $_SESSION['account'] = $account;
                   echo "Xin chào " . $account . ". Bạn đã đăng nhập thành công. ";
-                  ?><a href="index.php">Quay lại trang chủ</a><?php
+                  ?><a href="main.php">Quay lại trang chủ</a><?php
                   die(); 
             }
             ?>
