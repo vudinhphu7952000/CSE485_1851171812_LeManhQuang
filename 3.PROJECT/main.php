@@ -8,11 +8,13 @@
         
         <!-- <link rel="stylesheet" href="style.css"> -->
         
-        <link href="style.css" rel="stylesheet">
+    
         <!-- Bootstrap CSS -->
         <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      </head>
+       <link rel="stylesheet" href="style.css">
+    </head>
       <body>
 
       
@@ -297,7 +299,7 @@
                         <div class="col-md-3">
                             <ul>
                                 <li class="list-item">
-                                    aaaa
+                                    <a href="signup.php">chuyển trang</a>
                                 </li>
                                 <li class="list-item">
                                     bbbb
